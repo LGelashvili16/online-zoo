@@ -304,10 +304,9 @@ article p {
   background: orange;
   cursor: pointer;
   margin: 0 20px;
-  transition: all 0.3s;
 }
 
-.slider-circle:hover {
+.slider-circle:active {
   background: #4b9200;
 }
 
@@ -559,6 +558,10 @@ article p {
   background: #e47209;
 }
 
+.btn-feed:active {
+  background: #4b9200;
+}
+
 .btn-feed a {
   text-decoration: none;
   color: white;
@@ -691,6 +694,10 @@ progress[value]::-webkit-progress-value {
 
 .btn-feedback:hover {
   background: #e47209;
+}
+
+.btn-feedback:active {
+  background: #4b9200;
 }
 
 .btn-feedback a {
