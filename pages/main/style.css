@@ -213,7 +213,7 @@ section {
 }
 
 .btn-online:hover {
-  background: #6f00ff;
+  background: #e47209;
 }
 
 .btn-online a {
@@ -308,7 +308,7 @@ article p {
 }
 
 .slider-circle:hover {
-  background: #6f00ff;
+  background: #4b9200;
 }
 
 .rotate {
@@ -397,7 +397,7 @@ article p {
 }
 
 .btn-favorite:hover {
-  background: #6f00ff;
+  background: #e47209;
 }
 
 .btn-favorite a {
@@ -556,7 +556,7 @@ article p {
 }
 
 .btn-feed:hover {
-  background: #6f00ff;
+  background: #e47209;
 }
 
 .btn-feed a {
@@ -690,7 +690,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .btn-feedback:hover {
-  background: #6f00ff;
+  background: #e47209;
 }
 
 .btn-feedback a {
@@ -775,7 +775,7 @@ footer {
 }
 
 .btn-donate:hover {
-  background: #6f00ff;
+  background: #e47209;
 }
 
 .btn-donate a {
@@ -807,7 +807,7 @@ footer {
 }
 
 .social-media-link a:hover {
-  color: #f9804b;
+  color: #4b9200;
 }
 
 .media-circle {
