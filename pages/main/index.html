@@ -11,40 +11,45 @@
   <body>
     <!--++++++++++++++++++++ Header ++++++++++++++++++++-->
 
-    <header>
-      <nav class="header-nav">
-        <a class="logo" href="#">
-          <h1>
-            PetStory<br />
-            online
-          </h1>
-          <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
-        </a>
+    <header class="header">
+      <div class="container header-d-flex">
+        <div class="logo-and-nav-wrapper">
+          <a class="logo" href="#">
+            <h1>
+              PetStory<br />
+              online
+            </h1>
+            <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
+          </a>
 
-        <a class="nav-link colored" href="#">About</a>
-        <a class="nav-link" href="#">Map</a>
-        <a class="nav-link" href="#">Zoos</a>
-        <a class="nav-link" href="#">Donate</a>
-        <a class="nav-link" href="#">Contact us</a>
-      </nav>
-      <a class="nav-link-auth" href="#">Designed by ©</a>
+          <nav>
+            <a class="nav-link colored" href="../main/index.html">About</a>
+            <a class="nav-link" href="#">Map</a>
+            <a class="nav-link" href="#">Zoos</a>
+            <a class="nav-link" href="../donate/index.html">Donate</a>
+            <a class="nav-link" href="#">Contact us</a>
+          </nav>
+        </div>
+        <div class="design-by">
+          <a class="nav-link-auth" href="#">Designed by ©</a>
+        </div>
+      </div>
     </header>
 
     <main>
       <!--++++++++++++++++++++ Section 1 ++++++++++++++++++++-->
 
       <section class="section-1">
-        <img src="../../assets/images/Bear Panda.png" alt="Bear Panda" />
-        <div class="ellipse"></div>
-        <div class="animal-online">
-          <h2>
-            WATCH<br />YOUR<br />
-            <span>FAVORITE</span><br />
-            ANIMAL<br />ONLINE
-          </h2>
-          <button class="btn-online">
-            <a href="#">WATCH ONLINE</a>
-          </button>
+        <div class="container wrapper-s1">
+          <div class="ellipse"></div>
+          <div class="animal-online">
+            <h2>
+              WATCH<br />YOUR<br />
+              <span>FAVORITE</span><br />
+              ANIMAL<br />ONLINE
+            </h2>
+            <button class="btn-online">WATCH ONLINE</button>
+          </div>
         </div>
       </section>
 
@@ -302,7 +307,7 @@
       <!--++++++++++++++++++++ Section 5 ++++++++++++++++++++-->
 
       <section class="section-5">
-        <div class="container-s5">
+        <div class="container-s5 container">
           <h2 class="Testimonials">Testimonials</h2>
 
           <div class="s5-cards">
@@ -428,74 +433,85 @@
     <!--++++++++++++++++++++ Footer ++++++++++++++++++++-->
 
     <footer>
-      <div class="footer-upper-container">
-        <a class="logo footer-logo" href="#">
-          <h1>
-            PetStory<br />
-            online
-          </h1>
-          <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
-        </a>
+      <div class="container">
+        <div class="part-1">
+          <a class="logo" href="#">
+            <h1>
+              PetStory<br />
+              online
+            </h1>
+            <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
+          </a>
 
-        <div>
-          <h2 class="subscribe-news">Subscribe to our news</h2>
-          <input
-            type="email"
-            class="input-email"
-            placeholder="Enter your email"
-          />
-          <button type="submit" class="button-submit">Submit</button>
+          <button class="btn-donate">
+            <a href="#">DONATE FOR A VOLUNTEERS</a>
+          </button>
+
+          <ul class="social-media">
+            <li class="li-items">
+              <a href="#">
+                <div class="media-circle">
+                  <img src="../../assets/icons/Facebook.png" alt="Facebook" />
+                </div>
+                <p>Facebook</p>
+              </a>
+            </li>
+
+            <li class="li-items">
+              <a href="#">
+                <div class="media-circle">
+                  <img src="../../assets/icons/Twitter.png" alt="Twitter" />
+                </div>
+                <p>Twitter</p>
+              </a>
+            </li>
+
+            <li class="li-items">
+              <a href="#">
+                <div class="media-circle">
+                  <img src="../../assets/icons/Instagram.png" alt="Instagram" />
+                </div>
+                <p>Instagram</p>
+              </a>
+            </li>
+
+            <li class="li-items">
+              <a href="#">
+                <div class="media-circle">
+                  <img src="../../assets/icons/YouTube.png" alt="YouTube" />
+                </div>
+                <p>YouTube</p>
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
 
-      <button class="btn-donate">
-        <a href="#">DONATE FOR A VOLUNTEERS</a>
-      </button>
-
-      <div class="footer-lower-container">
-        <div class="social-media">
-          <div class="social-media-link">
-            <div class="media-circle">
-              <img src="../../assets/icons/Facebook.png" alt="Facebook logo" />
-            </div>
-            <a href="#">Facebook</a>
-          </div>
-
-          <div class="social-media-link">
-            <div class="media-circle">
-              <img src="../../assets/icons/Twitter.png" alt="Twitter logo" />
-            </div>
-            <a href="#">Twitter</a>
-          </div>
-
-          <div class="social-media-link">
-            <div class="media-circle">
-              <img
-                src="../../assets/icons/Instagram.png"
-                alt="Instagram logo"
-              />
-            </div>
-            <a href="#">Facebook</a>
-          </div>
-
-          <div class="social-media-link">
-            <div class="media-circle">
-              <img src="../../assets/icons/YouTube.png" alt="YouTube logo" />
-            </div>
-            <a href="#">YouTube</a>
-          </div>
-        </div>
-        <nav>
-          <div class="footer-nav-links">
-            <a class="nav-link colored" href="#">About</a>
+        <div class="part-2">
+          <nav>
+            <a class="nav-link" href="#">About</a>
             <a class="nav-link" href="#">Map</a>
             <a class="nav-link" href="#">Zoos</a>
             <a class="nav-link" href="#">Contact us</a>
+          </nav>
+        </div>
+
+        <div class="part-3">
+          <form method="get">
+            <h2 class="subscribe-news">Subscribe to our news</h2>
+            <input
+              type="email"
+              class="input-email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <input type="submit" name="email" class="button-submit" />
+          </form>
+
+          <div class="author">
+            <p>Designed by Lado Gelashvili</p>
+            <p>©RSSchool & ©Yem Digital 2022</p>
           </div>
-        </nav>
-        <div class="author">
-          <p>Designed by Lado Gelashvili</p>
-          <p>©RSSchool & ©Yem Digital 2022</p>
         </div>
       </div>
     </footer>
