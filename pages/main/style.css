@@ -314,6 +314,7 @@ article p {
   align-items: center;
   width: 62px;
   height: 62px;
+  border: none;
   border-radius: 50%;
   background: orange;
   cursor: pointer;
@@ -523,7 +524,8 @@ article p {
   margin-right: 198px;
 }
 
-.frosted-glass p span {
+.underline {
+  color: #333b41;
   text-decoration: underline #fe9013;
   text-underline-offset: 5px;
 }
@@ -707,7 +709,7 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
   background-color: #fe9013;
-
+  cursor: pointer;
   border-radius: 5px;
   background-size: 35px 20px, 100% 100%, 100% 100%;
 }
