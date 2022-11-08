@@ -423,6 +423,7 @@ input[type="range"]::-webkit-slider-thumb {
   border-radius: 50%;
   border: 1px solid #fe9013;
   transition: 0.7s;
+  cursor: pointer;
 }
 
 .input-radio input:checked {
@@ -434,6 +435,7 @@ input[type="range"]::-webkit-slider-thumb {
   font-size: 16px;
   font-weight: 400;
   line-height: 140%;
+  cursor: pointer;
 }
 
 .monthly-label {
