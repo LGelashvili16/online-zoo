@@ -23,7 +23,6 @@
       #eaf7fe 127.9%,
       #eaf7fe 149.54%
     );
-  opacity: 0.9;
 
   --pink-grad: linear-gradient(
       315.75deg,
@@ -764,6 +763,19 @@ footer .container {
 
 /* ++++++++++++++++++++++++++++++ Part 1 ++++++++++++++++++++++++++++++ */
 
+.logo h2 {
+  line-height: 23px;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: white;
+  transition: all 0.3s;
+}
+
+.logo h2:hover {
+  color: #f9804b;
+}
+
 .btn-donate {
   width: 298px;
   height: 54px;
@@ -825,11 +837,11 @@ footer .container {
   color: #ffffff;
 }
 
-.li-items a:hover {
+.li-items a:active {
   color: #4b9200;
 }
 
-.li-items a:hover .media-circle {
+.li-items a:active .media-circle {
   background: #4b9200;
 }
 
