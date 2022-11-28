@@ -5,12 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./donate-small-desktop.css">
+    <link rel="stylesheet" href="./donate-tablet.css">
     <title>Donate</title>
   </head>
 
   <body>
-    <header>
-      <div class="container header-d-flex">
+    <!--++++++++++++++++++++ Header ++++++++++++++++++++-->
+
+    <header class="header">
+
+      <!--++++++++++++++++++++ Responsive logo ++++++++++++++++++++-->
+      <div class="responsive-logo">
+        <a class="logo-responsive" href="../../pages/main/index.html">
+          <h1>
+            PetStory<br />
+            online
+          </h1>
+          <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
+        </a>
+      </div>
+
+      <!--++++++++++++++++++++  ++++++++++++++++++++-->
+
+      <div class="header-d-flex">
         <div class="logo-and-nav-wrapper">
           <a class="logo" href="../../pages/main/index.html">
             <h1>
@@ -21,10 +39,10 @@
           </a>
 
           <nav>
-            <a class="nav-link" href="../main/index.html">About</a>
+            <a class="nav-link colored" href="../main/index.html">About</a>
             <a class="nav-link" href="#">Map</a>
             <a class="nav-link" href="#">Zoos</a>
-            <a class="nav-link colored" href="../donate/index.html">Donate</a>
+            <a class="nav-link" href="../donate/index.html">Donate</a>
             <a class="nav-link" href="#">Contact us</a>
           </nav>
         </div>
@@ -37,6 +55,16 @@
           >
         </div>
       </div>
+
+      <!--++++++++++++++++++++ Burger Menu ++++++++++++++++++++-->
+
+      <div class="burger-menu">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </div>
+
+      <!--++++++++++++++++++++  ++++++++++++++++++++-->
     </header>
 
     <main class="">
@@ -105,22 +133,22 @@
                 <ul class="money-selector">
                   <li class="dots">
                     <ul class="dots-list">
-                      <li class="dot-circle">
+                      <li class="dot-circle dot-1">
+                        <div class="dot-spot"></div>
+                      </li>
+                      <li class="dot-circle dot-2">
+                        <div class="dot-spot"></div>
+                      </li>
+                      <li class="dot-circle dot-3 dot-active">
                         <div class="dot-spot"></div>
                       </li>
                       <li class="dot-circle">
                         <div class="dot-spot"></div>
                       </li>
-                      <li class="dot-circle dot-active">
-                        <div class="dot-spot"></div>
-                      </li>
                       <li class="dot-circle">
                         <div class="dot-spot"></div>
                       </li>
-                      <li class="dot-circle">
-                        <div class="dot-spot"></div>
-                      </li>
-                      <li class="dot-circle">
+                      <li class="dot-circle dot-active-2">
                         <div class="dot-spot"></div>
                       </li>
                       <li class="dot-circle">
@@ -134,12 +162,12 @@
 
                   <li class="money">
                     <ul class="money-list">
-                      <li class="money-amount">$5000</li>
-                      <li class="money-amount">$2000</li>
-                      <li class="money-amount money-active">$1000</li>
+                      <li class="money-amount amount-5000">$5000</li>
+                      <li class="money-amount amount-2000">$2000</li>
+                      <li class="money-amount amount-1000 money-active">$1000</li>
                       <li class="money-amount">$500</li>
                       <li class="money-amount">$250</li>
-                      <li class="money-amount">$100</li>
+                      <li class="money-amount money-active-2">$100</li>
                       <li class="money-amount">$50</li>
                       <li class="money-amount">$25</li>
                     </ul>
@@ -192,87 +220,109 @@
     <!--++++++++++++++++++++ Footer ++++++++++++++++++++-->
 
     <footer>
-      <div class="container">
-        <div class="part-1">
-          <a class="logo" href="../main/index.html">
-            <h2>
-              PetStory<br />
-              online
-            </h2>
-            <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
-          </a>
+      <div class="f-container">
 
-          <button class="btn-donate">
-            <a href="../donate/index.html">DONATE FOR A VOLUNTEERS</a>
-          </button>
+        <!--++++++++++++++++++++ Upper ++++++++++++++++++++-->
 
-          <ul class="social-media">
-            <li class="li-items">
-              <a href="#">
-                <div class="media-circle">
-                  <img src="../../assets/icons/Facebook.png" alt="Facebook" />
-                </div>
-                <p>Facebook</p>
-              </a>
-            </li>
+        <div class="footer-upper-section">
+          <div class="footer-logo">
+            <a class="logo" href="../main/index.html">
+              <h2>
+                PetStory<br />
+                online
+              </h2>
+              <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
+            </a>
+          </div>
 
-            <li class="li-items">
-              <a href="#">
-                <div class="media-circle">
-                  <img src="../../assets/icons/Twitter.png" alt="Twitter" />
-                </div>
-                <p>Twitter</p>
-              </a>
-            </li>
-
-            <li class="li-items">
-              <a href="#">
-                <div class="media-circle">
-                  <img src="../../assets/icons/Instagram.png" alt="Instagram" />
-                </div>
-                <p>Instagram</p>
-              </a>
-            </li>
-
-            <li class="li-items">
-              <a href="#">
-                <div class="media-circle">
-                  <img src="../../assets/icons/YouTube.png" alt="YouTube" />
-                </div>
-                <p>YouTube</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="part-2">
-          <nav>
-            <a class="nav-link" href="../main/index.html">About</a>
-            <a class="nav-link" href="#">Map</a>
-            <a class="nav-link" href="#">Zoos</a>
-            <a class="nav-link" href="#">Contact us</a>
-          </nav>
-        </div>
-
-        <div class="part-3">
-          <form method="get">
-            <h2 class="subscribe-news">Subscribe to our news</h2>
-            <input
-              type="email"
-              class="input-email"
-              name="email"
-              placeholder="Enter your email"
-              required
-            />
-            <input type="submit" name="email" class="button-submit" />
-          </form>
-
-          <div class="author">
-            <p>Designed by Lado Gelashvili</p>
-            <p>©RSSchool & ©Yem Digital 2022</p>
+          <div class="footer-form">
+            <form method="get">
+              <h2 class="subscribe-news">Subscribe to our news</h2>
+              <input
+                type="email"
+                class="input-email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <input type="submit" name="email" class="button-submit" />
+            </form>
           </div>
         </div>
+
+        <!--++++++++++++++++++++ Middle ++++++++++++++++++++-->
+
+        <div class="footer-middle-section">
+          <div class="footer-btn">
+            <button class="btn-donate">
+              <a href="../../pages/donate/index.html">DONATE FOR VOLUNTEERS</a>
+            </button>
+          </div>
+        </div>
+
+        <!--++++++++++++++++++++ Lower ++++++++++++++++++++-->
+
+        <div class="footer-lower-section">
+          <div class="footer-social">
+            <ul class="social-media">
+              <li class="li-items">
+                <a href="#">
+                  <div class="media-circle">
+                    <img src="../../assets/icons/Facebook.png" alt="Facebook" />
+                  </div>
+                  <p>Facebook</p>
+                </a>
+              </li>
+
+              <li class="li-items">
+                <a href="#">
+                  <div class="media-circle">
+                    <img src="../../assets/icons/Twitter.png" alt="Twitter" />
+                  </div>
+                  <p>Twitter</p>
+                </a>
+              </li>
+
+              <li class="li-items">
+                <a href="#">
+                  <div class="media-circle">
+                    <img src="../../assets/icons/Instagram.png" alt="Instagram" />
+                  </div>
+                  <p>Instagram</p>
+                </a>
+              </li>
+
+              <li class="li-items">
+                <a href="#">
+                  <div class="media-circle">
+                    <img src="../../assets/icons/YouTube.png" alt="YouTube" />
+                  </div>
+                  <p>YouTube</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-nav">
+            <nav>
+              <a class="nav-link colored" href="../main/index.html">About</a>
+              <a class="nav-link" href="#">Map</a>
+              <a class="nav-link" href="#">Zoos</a>
+              <a class="nav-link" href="#">Contact us</a>
+            </nav>
+          </div>
+
+          <div class="footer-author">
+            <div class="author">
+              <p>Designed by Lado Gelashvili</p>
+              <p>©RSSchool & ©Yem Digital 2022</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>

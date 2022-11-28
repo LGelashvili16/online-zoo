@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./small-desktop.css">
+    <link rel="stylesheet" href="./tablet.css">
     <title>Online-Zoo</title>
   </head>
 
@@ -12,7 +14,21 @@
     <!--++++++++++++++++++++ Header ++++++++++++++++++++-->
 
     <header class="header">
-      <div class="container header-d-flex">
+
+      <!--++++++++++++++++++++ Responsive logo ++++++++++++++++++++-->
+      <div class="responsive-logo">
+        <a class="logo-responsive" href="../../pages/main/index.html">
+          <h1>
+            PetStory<br />
+            online
+          </h1>
+          <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
+        </a>
+      </div>
+
+      <!--++++++++++++++++++++  ++++++++++++++++++++-->
+
+      <div class="header-d-flex">
         <div class="logo-and-nav-wrapper">
           <a class="logo" href="../../pages/main/index.html">
             <h1>
@@ -39,6 +55,16 @@
           >
         </div>
       </div>
+
+      <!--++++++++++++++++++++ Burger Menu ++++++++++++++++++++-->
+
+      <div class="burger-menu">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </div>
+
+      <!--++++++++++++++++++++  ++++++++++++++++++++-->
     </header>
 
     <main>
@@ -96,11 +122,15 @@
 
       <section class="section-3">
         <div class="container-s3">
-          <button class="slider-circle">
-            <img src="../../assets/icons/arrow.svg" alt="Slider arrow" />
-          </button>
+          <div class="arrow-div">
+            <button class="slider-circle circle-left">
+              <img src="../../assets/icons/arrow.svg" alt="Slider arrow" />
+            </button>
+          </div>
 
-          <div class="cards">
+          <!--++++++++++++++++++++ Cards-Table ++++++++++++++++++++-->
+
+          <div class="cards table-1">
             <div class="card">
               <img
                 class="card-img"
@@ -177,7 +207,7 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card display-none">
               <img
                 class="card-img"
                 src="../../assets/images/Cheetahs.png"
@@ -196,7 +226,7 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card display-none">
               <img
                 class="card-img"
                 src="../../assets/images/Penguins.png"
@@ -215,16 +245,19 @@
               </div>
             </div>
           </div>
-
-          <button class="slider-circle rotate">
-            <img src="../../assets/icons/arrow.svg" alt="Slider arrow" />
-          </button>
+          
+          <!--++++++++++++++++++++  ++++++++++++++++++++-->
+          <div class="arrow-div">
+            <button class="slider-circle circle-right">
+              <img src="../../assets/icons/arrow.svg" alt="Slider arrow" />
+            </button>
+          </div>
         </div>
 
         <div class="lower-section">
           <img
             class="palm"
-            src="../../assets/images/palm_foto.png"
+            src="../../assets/images/palm_foto_3.png"
             alt="Palm"
           />
           <button class="btn-favorite">
@@ -274,9 +307,15 @@
               </div>
 
               <img
-                class="next-arrow"
+                class="next-arrow display-none"
                 src="../../assets/icons/nextArrow.svg"
                 alt="To next arrow"
+              />
+
+              <img
+                class="next-arrow-green"
+                src="../../assets/icons/arrow-green.png"
+                alt="Green next arrow"
               />
 
               <div class="glass-card">
@@ -291,9 +330,15 @@
               </div>
 
               <img
-                class="next-arrow"
+                class="next-arrow display-none"
                 src="../../assets/icons/nextArrow.svg"
                 alt="To next arrow"
+              />
+
+              <img
+                class="next-arrow-green-2"
+                src="../../assets/icons/arrow-green.png"
+                alt="Green next arrow"
               />
 
               <div class="glass-card">
@@ -315,113 +360,113 @@
       <!--++++++++++++++++++++ Section 5 ++++++++++++++++++++-->
 
       <section class="section-5">
-        <div class="container-s5 container">
+        <div class="container-s5">
           <h2 class="Testimonials">Testimonials</h2>
 
           <div class="s5-cards">
-            <div class="s5-card">
-              <div class="user-info">
-                <img
-                  class="avatar"
-                  src="../../assets/icons/user_icon.png"
-                  alt="Avatar"
-                />
-                <div class="user-name">
-                  <h3>Michael John</h3>
-                  <h4>Local Austria • Today</h4>
+            <div class="s5-card position-1">
+              <div class="card-background">
+                <div class="user-info">
+                  <img
+                    class="avatar"
+                    src="../../assets/icons/user_icon.png"
+                    alt="Avatar"
+                  />
+                  <div class="user-name">
+                    <h3>Michael John</h3>
+                    <h4>Local Austria • Today</h4>
+                  </div>
                 </div>
-              </div>
 
-              <p>
-                The best online zoo I’ve met. My son delighted very much ljves
-                to watch gouillas. Online zoo is one jf the ways to instill a
-                love for animals.The best online zoo I’ve met. My son delighted
-                very much ljves to watch gouillas. Online zoo is one jf the ways
-                to instill a love for animals. The best online zoo I’ve met. My
-                son delighted very much ljves to watch gouillas. Online zoo is
-                one jf the ways to instill a love for animals.The best online
-                zoo I’ve met. My son delighted very much ljves to watch
-                gouillas. Online zoo is one jf the ways to instill a love for
-              </p>
+                <p>
+                  The best online zoo I’ve met. My son delighted very much ljves
+                  to watch gouillas. Online zoo is one jf the ways to instill a
+                  love for animals.The best online zoo I’ve met. My son delighted
+                  very much ljves to watch gouillas. Online zoo is one jf the ways
+                  to instill a love for animals. The best online zoo I’ve met. My
+                  son delighted very much ljves to watch gouillas. Online zoo is
+                  one jf the ways to instill a love for animals.The best online
+                  zoo I’ve met. My son delighted very much ljves to watch
+                  gouillas. Online zoo is one jf the ways to instill a love for
+                </p>
+              </div>
             </div>
 
-            <div class="s5-card">
-              <div class="user-info">
-                <img
-                  class="avatar"
-                  src="../../assets/icons/user 2.png"
-                  alt="Avatar"
-                />
-                <div class="user-name">
-                  <h3>Oskar Samborsky</h3>
-                  <h4>Local Austria • Yesterday</h4>
+            <div class="s5-card hide-card">
+              <div class="card-background">
+                <div class="user-info">
+                  <img
+                    class="avatar"
+                    src="../../assets/icons/user 2.png"
+                    alt="Avatar"
+                  />
+                  <div class="user-name">
+                    <h3>Oskar Samborsky</h3>
+                    <h4>Local Austria • Yesterday</h4>
+                  </div>
                 </div>
-              </div>
 
-              <p>
-                Online zoo is one jf the ways to instill a love for animals.The
-                best online zoo I’ve met. My son delighted very much ljves to
-                watch gouillas. Online zoo is one jf the ways to instill a love
-                for animals.The best online zoo I’ve met. My son delighted very
-                much ljves to watch gouillas. The best online zoo I’ve met. My
-                son delighted very much ljves to watch gouillas. Online zoo is
-                one jf the ways to instill a love for animals.The best online
-                zoo I’ve met. My son delighted very much ljves to watch
-                gouillas. Online zoo is one jf the ways to instill a love for
-              </p>
+                <p>
+                  Online zoo is one jf the ways to instill a love for animals.The
+                  best online zoo I’ve met. My son delighted very much ljves to
+                  watch gouillas. Online zoo is one jf the ways to instill a love
+                  for animals.The best online zoo I’ve met. My son delighted very
+                  much ljves to watch gouillas. The best online zoo I’ve met. My
+                  son delighted very much ljves to watch gouillas. Online zoo is
+                  one jf the ways to instill a love for animals.The best online
+                  zoo I’ve met. My son delighted very much ljves to watch
+                  gouillas. Online zoo is one jf the ways to instill a love for
+                </p>
+              </div>
             </div>
 
-            <div class="s5-card">
-              <div class="user-info">
-                <img
-                  class="avatar"
-                  src="../../assets/icons/user 3.png"
-                  alt="Avatar"
-                />
-                <div class="user-name">
-                  <h3>Fredericka Michelin</h3>
-                  <h4>Local Austria • Yesterday</h4>
+            <div class="s5-card position-3">
+              <div class="card-background">
+                <div class="user-info">
+                  <img
+                    class="avatar"
+                    src="../../assets/icons/user 3.png"
+                    alt="Avatar"
+                  />
+                  <div class="user-name">
+                    <h3>Fredericka Michelin</h3>
+                    <h4>Local Austria • Yesterday</h4>
+                  </div>
                 </div>
-              </div>
 
-              <p>
-                The best online zoo I’ve met. My son delighted very much ljves
-                to watch gouillas. Online zoo is one jf the ways to instill a
-                love for animals.The best online zoo I’ve met. My son delighted
-                very much ljves to watch gouillas. Online zoo is one jf the ways
-                to instill a love for animals. The best online zoo I’ve met. My
-                son delighted very much ljves to watch gouillas. Online zoo is
-                one jf the ways to instill a love for animals.The best online
-                zoo I’ve met. The best online zoo I’ve met. My son delighted
-                very much ljves to
-              </p>
+                <p>
+                  The best online zoo I’ve met. My son delighted very much ljves
+                  to watch gouillas. Online zoo is one jf the ways to instill a
+                  love for animals.The best online zoo I’ve met. My son delighted
+                  very much ljves to watch gouillas. Online zoo is one jf the ways
+                  to instill a love for animals. The best online zoo I’ve met. My
+                  son delighted very much ljves to watch gouillas. Online zoo is
+                  one jf the ways to instill a love for animals.The best online
+                  zoo I’ve met. The best online zoo I’ve met. My son delighted
+                  very much ljves to
+                </p>
+              </div>
             </div>
 
-            <div class="s5-card">
-              <div class="user-info">
-                <img
-                  class="avatar"
-                  src="../../assets/icons/user 4.png"
-                  alt="Avatar"
-                />
-                <div class="user-name">
-                  <h3>Mila Riksha</h3>
-                  <h4>Local Austria • Yesterday</h4>
+            <div class="s5-card position-2">
+              <div class="card-background">
+                <div class="user-info">
+                  <img
+                    class="avatar"
+                    src="../../assets/icons/user 4.png"
+                    alt="Avatar"
+                  />
+                  <div class="user-name">
+                    <h3>Mila Riksha</h3>
+                    <h4>Local Austria • Yesterday</h4>
+                  </div>
                 </div>
-              </div>
 
-              <p>
-                My son delighted very much ljves to watch gouillas. Online zoo
-                is one jf the ways to instill a love for animals.The best online
-                zoo I’ve met. My son delighted very much ljves to watch
-                gouillas. Online zoo is one jf the ways to instill a love for
-                animals.The best online zoo I’ve met. My son delighted very much
-                ljves to watch gouillas. Online zoo is one jf the ways to
-                instill a love for animals.The best online zoo I’ve met. My son
-                delighted very much ljves to watch gouillas. The best online zoo
-                I’ve met. My son delighted very much ljves to watch gouillas.
-                Online zoo is one jf
-              </p>
+                <p>
+                  My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf
+                </p>
+              </div>
             </div>
           </div>
           <progress class="progress" value="21" max="100">21%</progress>
@@ -441,87 +486,109 @@
     <!--++++++++++++++++++++ Footer ++++++++++++++++++++-->
 
     <footer>
-      <div class="container">
-        <div class="part-1">
-          <a class="logo" href="../main/index.html">
-            <h2>
-              PetStory<br />
-              online
-            </h2>
-            <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
-          </a>
+      <div class="f-container">
 
-          <button class="btn-donate">
-            <a href="../../pages/donate/index.html">DONATE FOR A VOLUNTEERS</a>
-          </button>
+        <!--++++++++++++++++++++ Upper ++++++++++++++++++++-->
 
-          <ul class="social-media">
-            <li class="li-items">
-              <a href="#">
-                <div class="media-circle">
-                  <img src="../../assets/icons/Facebook.png" alt="Facebook" />
-                </div>
-                <p>Facebook</p>
-              </a>
-            </li>
+        <div class="footer-upper-section">
+          <div class="footer-logo">
+            <a class="logo" href="../main/index.html">
+              <h2>
+                PetStory<br />
+                online
+              </h2>
+              <img src="../../assets/icons/bamboo.svg" alt="Bamboo icon" />
+            </a>
+          </div>
 
-            <li class="li-items">
-              <a href="#">
-                <div class="media-circle">
-                  <img src="../../assets/icons/Twitter.png" alt="Twitter" />
-                </div>
-                <p>Twitter</p>
-              </a>
-            </li>
-
-            <li class="li-items">
-              <a href="#">
-                <div class="media-circle">
-                  <img src="../../assets/icons/Instagram.png" alt="Instagram" />
-                </div>
-                <p>Instagram</p>
-              </a>
-            </li>
-
-            <li class="li-items">
-              <a href="#">
-                <div class="media-circle">
-                  <img src="../../assets/icons/YouTube.png" alt="YouTube" />
-                </div>
-                <p>YouTube</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="part-2">
-          <nav>
-            <a class="nav-link" href="../main/index.html">About</a>
-            <a class="nav-link" href="#">Map</a>
-            <a class="nav-link" href="#">Zoos</a>
-            <a class="nav-link" href="#">Contact us</a>
-          </nav>
-        </div>
-
-        <div class="part-3">
-          <form method="get">
-            <h2 class="subscribe-news">Subscribe to our news</h2>
-            <input
-              type="email"
-              class="input-email"
-              name="email"
-              placeholder="Enter your email"
-              required
-            />
-            <input type="submit" name="email" class="button-submit" />
-          </form>
-
-          <div class="author">
-            <p>Designed by Lado Gelashvili</p>
-            <p>©RSSchool & ©Yem Digital 2022</p>
+          <div class="footer-form">
+            <form method="get">
+              <h2 class="subscribe-news">Subscribe to our news</h2>
+              <input
+                type="email"
+                class="input-email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <input type="submit" name="email" class="button-submit" />
+            </form>
           </div>
         </div>
+
+        <!--++++++++++++++++++++ Middle ++++++++++++++++++++-->
+
+        <div class="footer-middle-section">
+          <div class="footer-btn">
+            <button class="btn-donate">
+              <a href="../../pages/donate/index.html">DONATE FOR VOLUNTEERS</a>
+            </button>
+          </div>
+        </div>
+
+        <!--++++++++++++++++++++ Lower ++++++++++++++++++++-->
+
+        <div class="footer-lower-section">
+          <div class="footer-social">
+            <ul class="social-media">
+              <li class="li-items">
+                <a href="#">
+                  <div class="media-circle">
+                    <img src="../../assets/icons/Facebook.png" alt="Facebook" />
+                  </div>
+                  <p>Facebook</p>
+                </a>
+              </li>
+
+              <li class="li-items">
+                <a href="#">
+                  <div class="media-circle">
+                    <img src="../../assets/icons/Twitter.png" alt="Twitter" />
+                  </div>
+                  <p>Twitter</p>
+                </a>
+              </li>
+
+              <li class="li-items">
+                <a href="#">
+                  <div class="media-circle">
+                    <img src="../../assets/icons/Instagram.png" alt="Instagram" />
+                  </div>
+                  <p>Instagram</p>
+                </a>
+              </li>
+
+              <li class="li-items">
+                <a href="#">
+                  <div class="media-circle">
+                    <img src="../../assets/icons/YouTube.png" alt="YouTube" />
+                  </div>
+                  <p>YouTube</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-nav">
+            <nav>
+              <a class="nav-link colored" href="../main/index.html">About</a>
+              <a class="nav-link" href="#">Map</a>
+              <a class="nav-link" href="#">Zoos</a>
+              <a class="nav-link" href="#">Contact us</a>
+            </nav>
+          </div>
+
+          <div class="footer-author">
+            <div class="author">
+              <p>Designed by Lado Gelashvili</p>
+              <p>©RSSchool & ©Yem Digital 2022</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>

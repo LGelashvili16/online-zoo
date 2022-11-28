@@ -1,0 +1,115 @@
+
+@media (max-width: 1000px), (max-width: 1440px) {
+
+    /* ++++++++++++++++++++++++++++++ Header ++++++++++++++++++++++++++++++ */
+
+    header {
+        padding: 0 30px;
+    }
+
+    nav {
+        gap: 48px;
+    }
+
+    /* ++++++++++++++++++++++++++++++ section 2 ++++++++++++++++++++++++++++++ */
+
+    .section-2 {
+        max-height: 1333px;
+        padding: 40px 30px 0;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    article h2 {
+        width: 778px;
+    }
+
+    article p {
+        margin-top: 30px;
+        height: 94px;
+    }
+
+    .glass {
+        margin-top: 40px;
+        height: 918px;
+    }
+
+    .glass-inside-box {
+        width: 940px;
+        margin-top: 20px;
+    }
+
+    .glass-inside-box > h2 {
+        margin: 0 auto 10px 231px;
+    }
+
+    .glass-inside-box > p {
+        margin-left: 47px;
+    }
+
+    .panda-diet {
+        margin-left: 196px;
+    }
+
+    .bar {
+        max-width: 830px;
+        margin-left: 65px;
+    }
+
+    .bar > h3 {
+        margin-left: 0;
+    }
+
+    .progress {
+        width: 810px;
+    }
+
+    .input-range {
+        width: 785px;
+        height: 2px;
+    }
+
+    .dots {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: -5px;
+        bottom: 2px;
+        margin-bottom: 42px;
+    }
+      
+    .dots-list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 820px;
+    }
+
+    .dot-1 {
+        display: none;
+    }
+
+    .amount-5000 {
+        display: none;
+    }
+
+    .feed-button {
+        margin-top: 30px;
+    }
+
+    /* ++++++++++++++++++++ Footer ++++++++++++++++++++ */
+
+    footer {
+        padding: 40px 31px 50px 30px;
+    }
+
+    .f-container {
+        max-width: 939px;
+    }
+
+    .footer-nav nav {
+        gap: 48px;
+    }
+}    
