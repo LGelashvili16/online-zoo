@@ -1,4 +1,4 @@
-@media (max-width: 640px), (max-width: 960px) {
+@media (max-width: 640px), (max-width: 999px) {
 
     /* ++++++++++++++++++++++++++++++ Header ++++++++++++++++++++++++++++++ */
 
@@ -367,7 +367,7 @@
     .social-media {
         margin-top: 0;
         row-gap: 20px;
-      }
+    }
 
     .footer-nav nav {
         gap: 37px;

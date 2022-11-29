@@ -48,6 +48,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
@@ -751,7 +755,7 @@ article p {
 .card-background {
   width: 264px;
   height: 387px;
-  border-radius: 20px;
+  border-radius: 18px;
   padding: 15px 15px 19px 16px;
   background: #f1f3f2;
 }
