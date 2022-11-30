@@ -204,6 +204,10 @@
         height: 282px;
     }
 
+    .f-container {
+        width: 600px;
+    }
+
     .footer-form {
         display: none;
     }

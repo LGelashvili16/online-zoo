@@ -15,6 +15,11 @@
         margin-top: 0;
     }
 
+    .wrapper-s1 {
+        height: 100%;
+        max-width: 320px;
+    }
+
     .ellipse {
         width: 119px;
         height: 119px;
@@ -43,14 +48,12 @@
     /* ++++++++++++++++++++ Section-2 ++++++++++++++++++++ */
 
     .section-2 {
-        max-width: 320px;
         padding: 0;
         margin: 0 auto;
-        justify-content: flex-start;
     }
 
     .container-s2 {
-        max-width: 320px;
+        max-width: 300px;
         height: 367px;
         margin: 104px 0 40px 10px;
     }
@@ -73,8 +76,8 @@
     .flower-1 {
         height: 217px;
         position: absolute;
-        left: 279px;
-        top: -62px;
+        right: -43px;
+        top: 38px;
     }
 
     /* ++++++++++++++++++++ Section-3 ++++++++++++++++++++ */
@@ -249,6 +252,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        width: 300px;
+        margin: 0 auto;
     }
 
     footer .logo {
