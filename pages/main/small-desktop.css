@@ -1,257 +1,254 @@
 @media (max-width: 1000px), (max-width: 1599px) {
+  /* ++++++++++++++++++++++++++++++ Header ++++++++++++++++++++++++++++++ */
 
-    /* ++++++++++++++++++++++++++++++ Header ++++++++++++++++++++++++++++++ */
+  header {
+    padding: 0 30px;
+  }
 
-    header {
-        padding: 0 30px;
-    }
+  nav {
+    gap: 48px;
+  }
 
-    nav {
-        gap: 48px;
-    }
-    /* ++++++++++++++++++++ Section-1 ++++++++++++++++++++ */    
+  /* ++++++++++++++++++++ Section-1 ++++++++++++++++++++ */
 
-    .section-1 {
-        height: 584px;
-    }
+  .section-1 {
+    height: 584px;
+  }
 
-    .ellipse {
-        width: 367px;
-        height: 367px;
-        top: 69px;
-        left: 456px;
-    }
-    
-    .animal-online {
-        width: 400px;
-        height: 320px;
-        position: absolute;
-        top: 122.8px;
-        left: 514px;
-    }
+  .ellipse {
+    width: 367px;
+    height: 367px;
+    top: 69px;
+    left: 456px;
+  }
 
-    .animal-online h2 {
-        font-size: 85px;
-        line-height: 64px;
-    }
+  .animal-online {
+    width: 400px;
+    height: 320px;
+    position: absolute;
+    top: 122.8px;
+    left: 514px;
+  }
 
-    .btn-online {
-        left: 51px;
-        margin-top: 40.2px;
-    }
+  .animal-online h2 {
+    font-size: 85px;
+    line-height: 64px;
+  }
 
-    /* ++++++++++++++++++++ Section-2 ++++++++++++++++++++ */
+  .btn-online {
+    left: 51px;
+    margin-top: 40.2px;
+  }
 
-    .section-2 {
-        max-width: 1000px;
-        padding: 0px 0 142px 0;
-    }
+  /* ++++++++++++++++++++ Section-2 ++++++++++++++++++++ */
 
-    .container-s2 {
-        max-width: 940px;
-        height: 427px;
-        margin-top: 100px;
-    }
+  .section-2 {
+    max-width: 1000px;
+    padding: 0px 0 142px 0;
+  }
 
-    .section2-img {
-        width: 455px;
-        height: 408px;
-    }
+  .container-s2 {
+    max-width: 940px;
+    height: 427px;
+    margin-top: 100px;
+  }
 
-    .section2-img img {
-        width: 455px;
-        height: 408px;
-        object-fit: cover;
-    }
+  .section2-img {
+    width: 455px;
+    height: 408px;
+  }
 
-    .section2-article {
-        margin-left: 31px;
-        width: 454px;
-    }
+  .section2-img img {
+    width: 455px;
+    height: 408px;
+    object-fit: cover;
+  }
 
-    .flower-1 {
-        display: none;
-    }
+  .section2-article {
+    margin-left: 31px;
+    width: 454px;
+  }
 
-    /* ++++++++++++++++++++ Section-3 ++++++++++++++++++++ */  
+  .flower-1 {
+    display: none;
+  }
 
+  /* ++++++++++++++++++++ Section-3 ++++++++++++++++++++ */
 
-    .cards {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        row-gap: 92px;
-        column-gap: 29px;
-    }
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 92px;
+    column-gap: 29px;
+  }
 
-    .card {
-        width: 294px;
-        height: 354px;
-    }
+  .card {
+    width: 294px;
+    height: 354px;
+  }
 
-    .circle-left {
-        position: absolute;
-        left: 240px;
-    }
+  .circle-left {
+    position: absolute;
+    left: 240px;
+  }
 
-    .circle-right {
-        position: absolute;
-        right: 240px;
-    }
+  .circle-right {
+    position: absolute;
+    right: 240px;
+  }
 
-    .lower-section {
-        height: 274px;
-    }
+  .lower-section {
+    height: 274px;
+  }
 
-    .palm {
-        width: 386px;
-        height: 202px;
-        position: absolute;
-        left: -192px;
-    }
+  .palm {
+    width: 386px;
+    height: 202px;
+    position: absolute;
+    left: -192px;
+  }
 
-    .strelitzia {
-        width: 241px;
-        height: 180px;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-    }
+  .strelitzia {
+    width: 241px;
+    height: 180px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 
-    /* ++++++++++++++++++++ Section-4 ++++++++++++++++++++ */
+  /* ++++++++++++++++++++ Section-4 ++++++++++++++++++++ */
 
-    .section-4 {
-        height: 876px;
-        padding: 30px 0 50px;
-    }
+  .section-4 {
+    height: 876px;
+    padding: 30px 0 50px;
+  }
 
-    .frosted-glass {
-        padding: 30px 0 50px 0px;
-        max-width: 940px;
-        height: 796px;
-    }
+  .frosted-glass {
+    padding: 30px 0 50px 0px;
+    max-width: 940px;
+    height: 796px;
+  }
 
-    .frosted-glass > h2 {
-        margin-bottom: 20px;
-    }
+  .frosted-glass > h2 {
+    margin-bottom: 20px;
+  }
 
-    .frosted-glass h3 {
-        margin-left: 49px;
-        margin-bottom: 20px;
-    }
+  .frosted-glass h3 {
+    margin-left: 49px;
+    margin-bottom: 20px;
+  }
 
-    .frosted-glass h4 {
-        margin-right: 78px;
-        margin-left: 49px;
-        margin-bottom: 10px;
-    }
+  .frosted-glass h4 {
+    margin-right: 78px;
+    margin-left: 49px;
+    margin-bottom: 10px;
+  }
 
-    .frosted-glass p {
-        margin-bottom: 40px;
-        margin-left: 49px;
-        margin-right: 68px;
-    }
+  .frosted-glass p {
+    margin-bottom: 40px;
+    margin-left: 49px;
+    margin-right: 68px;
+  }
 
-    .glass-card h3 {
-        margin: 30px 0 0;
-    }
+  .glass-card h3 {
+    margin: 30px 0 0;
+  }
 
-    .next-arrow {
-        margin-left: 31px;
-        margin-right: 30px;
-        margin-top: 62px;
-    }
+  .next-arrow {
+    margin-left: 31px;
+    margin-right: 30px;
+    margin-top: 62px;
+  }
 
-    .btn-feed {
-        margin: 70px auto 50px auto;
-    }
+  .btn-feed {
+    margin: 70px auto 50px auto;
+  }
 
-    /* ++++++++++++++++++++ Section-5 ++++++++++++++++++++ */
+  /* ++++++++++++++++++++ Section-5 ++++++++++++++++++++ */
 
-    .section-5 {
-        max-width: 100%;
-        height: 842px;
-        padding: 100px 0 0;
-    }
+  .section-5 {
+    max-width: 100%;
+    height: 842px;
+    padding: 100px 0 0;
+  }
 
-    .container-s5 {
-        max-width: 940px;
-        margin: 0 auto;
-    }
+  .container-s5 {
+    max-width: 940px;
+    margin: 0 auto;
+  }
 
-    .Testimonials {
-        margin-bottom: 30px;
-    }
+  .Testimonials {
+    margin-bottom: 30px;
+  }
 
-    .s5-cards {
-        gap: 30px;
-    }
+  .s5-cards {
+    gap: 30px;
+  }
 
-    .s5-card {
-        width: 293px;
-    }
+  .s5-card {
+    width: 293px;
+  }
 
-    .card-background {
-        width: 289px;
-    }
+  .card-background {
+    width: 289px;
+  }
 
+  .hide-card {
+    display: none;
+  }
 
-    .hide-card {
-        display: none;
-    }
+  .card-1 {
+    order: 0;
+  }
 
-    .position-1 {
-        order: 0;
-    }
+  .card-2 {
+    order: 2;
+  }
 
-    .position-2 {
-        order: 2;
-    }
+  .card-3 {
+    order: 3;
+  }
 
-    .position-3 {
-        order: 3;
-    }
+  .progress {
+    -webkit-appearance: none;
+    width: 390px;
+    height: 8px;
+    margin: 20px auto 52px auto;
+  }
 
-    .progress {
-        -webkit-appearance: none;
-        width: 390px;
-        height: 8px;
-        margin: 20px auto 52px auto;
-    }
+  .progress::before {
+    content: '';
+    width: 392px;
+    height: 10px;
+    display: block;
+    margin: 21px auto 31px auto;
+    background: var(--pink-grad);
+    position: absolute;
+    top: -22px;
+    left: -1px;
+    border-radius: 5px;
+    z-index: -1;
+  }
 
-    .progress::before {
-        content: '';
-        width: 392px;
-        height: 10px;
-        display: block;
-        margin: 21px auto 31px auto;
-        background: var(--pink-grad);
-        position: absolute;
-        top: -22px;
-        left: -1px;
-        border-radius: 5px;
-        z-index: -1;
-    }
+  .leav-img {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+    z-index: -1;
+  }
 
-    .leav-img {
-        width: 200px;
-        position: absolute;
-        right: 0;
-        bottom: -90px;
-        z-index: -1;
-    }
+  /* ++++++++++++++++++++ Footer ++++++++++++++++++++ */
 
-    /* ++++++++++++++++++++ Footer ++++++++++++++++++++ */
+  footer {
+    padding: 40px 31px 50px 30px;
+  }
 
-    footer {
-        padding: 40px 31px 50px 30px;
-    }
+  .f-container {
+    max-width: 939px;
+  }
 
-    .f-container {
-        max-width: 939px;
-    }
-
-    .footer-nav nav {
-        gap: 48px;
-    }
-    
+  .footer-nav nav {
+    gap: 48px;
+  }
 }

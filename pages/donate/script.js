@@ -1,27 +1,30 @@
-const toggleActive = document.querySelector('.header-d-flex');
+// ^^^^^^^^^^ Burger menu ^^^^^^^^^^
+
+const overlay = document.querySelector('.overlay');
 const burgerMenu = document.querySelector('.burger-menu');
-const menuLines = document.querySelectorAll('.burger-line');
+const closeBtn = document.querySelector('.close');
+const header = document.querySelector('.header-d-flex');
 
 burgerMenu.addEventListener('click', function () {
-    toggleActive.classList.toggle('active');
-
-    if (toggleActive.className.includes('active')) {
-        menuLines.forEach(elm => elm.style.backgroundColor = 'black');
-    } else {
-        menuLines.forEach(elm => elm.style.backgroundColor = 'white');
-    }
+  overlay.classList.toggle('active');
+  closeBtn.classList.toggle('active');
+  document.body.style.overflow = 'hidden';
 });
 
-burgerMenu.addEventListener('click', disable);
+closeBtn.addEventListener('click', function () {
+  overlay.classList.toggle('active');
+  closeBtn.classList.toggle('active');
+  document.body.style.overflow = '';
+});
 
-// Prevent scroll
-// Temporary I have to change
-function preventScroll(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    return false;
-}
+overlay.addEventListener('click', function (e) {
+  overlay.classList.toggle('active');
+  closeBtn.classList.toggle('active');
+  document.body.style.overflow = '';
+});
 
-function disable() {
-    document.querySelector('header').addEventListener('wheel', preventScroll);
-}
+header.addEventListener('click', function (e) {
+  e.stopPropagation();
+});
+
+// -----------++++++++++-----------++++++++++-----------++++++++++

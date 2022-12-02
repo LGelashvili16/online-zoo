@@ -1,326 +1,321 @@
 @media (max-width: 320px), (max-width: 639px) {
-
-    /* ++++++++++++++++++++++++++++++ Header ++++++++++++++++++++++++++++++ */
-
-    header {
-        padding: 0 10px;
-    }
-
-
-    /* ++++++++++++++++++++++++++++++ Section-1 ++++++++++++++++++++++++++++++ */
-
-    .section-1 {
-        height: 187px;
-        background-position-y: 30%;
-        margin-top: 0;
-    }
-
-    .wrapper-s1 {
-        height: 100%;
-        max-width: 320px;
-    }
-
-    .ellipse {
-        width: 119px;
-        height: 119px;
-        top: 22px;
-        left: 162.9px;
-    }
-
-    .animal-online {
-        width: 128.13px;
-        height: 102.44px;
-        position: absolute;
-        top: 41.12px;
-        left: 181.6px;
-    }
-
-    .animal-online h2 {
-        font-size: 28px;
-        line-height: 21px;
-    }
-
-    .btn-online {
-        left: -170px;
-        margin-top: 63.43px;
-    }
-
-    /* ++++++++++++++++++++ Section-2 ++++++++++++++++++++ */
-
-    .section-2 {
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    .container-s2 {
-        max-width: 300px;
-        height: 367px;
-        margin: 104px 0 40px 10px;
-    }
-
-    .section2-article {
-        width: 300px;
-    }
-
-    article h2 {
-        font-size: 24px;
-        line-height: 29px;
-        margin-bottom: 10px;
-    }
-
-    article h3 {
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-
-    .flower-1 {
-        height: 217px;
-        position: absolute;
-        right: -43px;
-        top: 38px;
-    }
-
-    /* ++++++++++++++++++++ Section-3 ++++++++++++++++++++ */
-
-    .cards {
-        grid-template-columns: auto;
-        gap: 20px;
-    }
-
-    .slider-circle {
-        display: none;
-    }
-
-    .lower-section {
-        height: 134px;
-    }
-
-    .btn-favorite {
-        margin-top: 20px;
-    }
-
-    .palm {
-        width: 138px;
-        height: 72px;
-        left: -80px;
-    }
-
-    .strelitzia {
-        width: 85px;
-        height: 71px;
-        right: -20px;
-    }
-
-    /* ++++++++++++++++++++ Section-4 ++++++++++++++++++++ */
-
-    .section-4 {
-        height: 1082px;
-        padding: 20px 10px 20px;
-    }
-
-    .frosted-glass {
-        padding: 20px 0 0;
-        max-width: 300px;
-        height: 1042px;
-    }
-
-    .frosted-glass > h2 {
-        font-size: 24px;
-        line-height: 29px;
-        margin-bottom: 10px;
-    }
-
-    .frosted-glass h3 {
-        font-size: 18px;
-        line-height: 22px;
-        text-align: center;
-    }
-
-    .frosted-glass h4 {
-        display: none;
-    }
-
-    .frosted-glass p {
-        display: none;
-    }
-
-    .how-it-works h2 {
-        margin-bottom: 20px;
-        font-size: 24px;
-        line-height: 29px;
-    }
-
-    .glass-cards {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        height: auto;
-    }
-
-    .glass-card {
-        width: 168px;
-        max-height: 222px;
-    }
-
-    .glass-card h3 {
-        margin-top: 10px;
-        font-size: 16px;
-        line-height: 22.4px;
-        text-align: left;
-    }
-
-    .next-arrow-green {
-        position: absolute;
-        top: 190px;
-        left: 205px;
-        transform: rotate(85deg);
-    }
-
-    .next-arrow-green-2 {
-        position: absolute;
-        top: 430px;
-        left: 205px;
-        transform: rotate(85deg);
-    }
-
-    .btn-feed {
-        margin: 39px auto 40px;
-    }
-
-    /* ++++++++++++++++++++ Section-5 ++++++++++++++++++++ */
-
-    .section-5 {
-        max-width: 100%;
-        height: 580px;
-        padding: 30px 0 0;
-    }
-
-    .container-s5 {
-        max-width: 320px;
-        margin: 0 auto;
-    }
-
-    .Testimonials {
-        font-size: 24px;
-        line-height: 29px;
-        text-align: center;
-        color: #333b41;
-        margin-bottom: 20px;
-      }
-
-    .s5-cards {
-        margin-left: 10px;
-    }
-
-    .s5-card {
-        width: 299px;
-        height: 109px;
-        overflow: hidden;
-    }
-
-    .card-background {
-        width: 295px;
-        padding: 15px 29px 8px 12px;
-        overflow: hidden;
-    }
-
-    .btn-feedback {
-        width: 240px;
-        margin: 30px auto 60px;
-    }
-
-    .leav-img {
-        height: 105px;
-        width: auto;
-        position: absolute;
-        right: -10px;
-        bottom: -43px;
-        transform: rotate(-20deg);
-    }
-
-    /* ++++++++++++++++++++ Footer ++++++++++++++++++++ */
-
-
-    footer {
-        padding: 20px 10px;
-        height: 334px;
-    }
-
-    .f-container {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 300px;
-        margin: 0 auto;
-    }
-
-    footer .logo {
-        border: none;
-        width: 128px;
-        height: auto;
-    }
-
-    footer .logo h2 {
-        display: flex;
-        gap: 5px;
-    }
-
-    footer .logo img {
-        left: 72px;
-        top: -2px;
-    }
-
-    .footer-middle-section {
-        margin-top: auto;
-    }
-
-    .btn-donate {
-        margin-top: 0;
-        margin-bottom: 30px;
-    }
-
-    .footer-lower-section {
-        height: 101px;
-        flex-direction: column;
-    }
-
-    .footer-social {
-        order: 2;
-        position: absolute;
-        left: 20%;
-        top: 53px;
-    }
-
-    .social-media {
-        margin-top: 0;
-        gap: 30px;
-        flex-direction: row;
-    }
-
-    .footer-nav {
-        order: 1;
-        margin: 0 11px;
-
-    }
-
-    .nav-link {
-        font-weight: 400;
-        line-height: 22px;
-    }
-
-    .footer-nav nav {
-        gap: 30px;
-    }
-
-    .author {
-        font-size: 15px;
-        line-height: 18px;
-        row-gap: 13px;
-    }
-
-    .footer-author {
-        order: 0;
-    }
+  /* ++++++++++++++++++++++++++++++ Header ++++++++++++++++++++++++++++++ */
+
+  header {
+    padding: 0 10px;
+  }
+
+  /* ++++++++++++++++++++++++++++++ Section-1 ++++++++++++++++++++++++++++++ */
+
+  .section-1 {
+    height: 187px;
+    background-position-y: 30%;
+    margin-top: 0;
+  }
+
+  .wrapper-s1 {
+    height: 100%;
+    max-width: 320px;
+  }
+
+  .ellipse {
+    width: 119px;
+    height: 119px;
+    top: 22px;
+    left: 162.9px;
+  }
+
+  .animal-online {
+    width: 128.13px;
+    height: 102.44px;
+    position: absolute;
+    top: 41.12px;
+    left: 181.6px;
+  }
+
+  .animal-online h2 {
+    font-size: 28px;
+    line-height: 21px;
+  }
+
+  .btn-online {
+    left: -170px;
+    margin-top: 63.43px;
+  }
+
+  /* ++++++++++++++++++++ Section-2 ++++++++++++++++++++ */
+
+  .section-2 {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .container-s2 {
+    max-width: 300px;
+    height: 367px;
+    margin: 104px 0 40px 10px;
+  }
+
+  .section2-article {
+    width: 300px;
+  }
+
+  article h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+
+  article h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .flower-1 {
+    height: 217px;
+    position: absolute;
+    right: -43px;
+    top: 38px;
+  }
+
+  /* ++++++++++++++++++++ Section-3 ++++++++++++++++++++ */
+
+  .cards {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .slider-circle {
+    display: none;
+  }
+
+  .lower-section {
+    height: 134px;
+  }
+
+  .btn-favorite {
+    margin-top: 20px;
+  }
+
+  .palm {
+    width: 138px;
+    height: 72px;
+    left: -80px;
+  }
+
+  .strelitzia {
+    width: 85px;
+    height: 71px;
+    right: -20px;
+  }
+
+  /* ++++++++++++++++++++ Section-4 ++++++++++++++++++++ */
+
+  .section-4 {
+    height: 1082px;
+    padding: 20px 10px 20px;
+  }
+
+  .frosted-glass {
+    padding: 20px 0 0;
+    max-width: 300px;
+    height: 1042px;
+  }
+
+  .frosted-glass > h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+
+  .frosted-glass h3 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .frosted-glass h4 {
+    display: none;
+  }
+
+  .frosted-glass p {
+    display: none;
+  }
+
+  .how-it-works h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .glass-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+  }
+
+  .glass-card {
+    width: 168px;
+    max-height: 222px;
+  }
+
+  .glass-card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: left;
+  }
+
+  .next-arrow-green {
+    position: absolute;
+    top: 190px;
+    left: 205px;
+    transform: rotate(85deg);
+  }
+
+  .next-arrow-green-2 {
+    position: absolute;
+    top: 430px;
+    left: 205px;
+    transform: rotate(85deg);
+  }
+
+  .btn-feed {
+    margin: 39px auto 40px;
+  }
+
+  /* ++++++++++++++++++++ Section-5 ++++++++++++++++++++ */
+
+  .section-5 {
+    max-width: 100%;
+    height: 580px;
+    padding: 30px 0 0;
+  }
+
+  .container-s5 {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .Testimonials {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #333b41;
+    margin-bottom: 20px;
+  }
+
+  .s5-cards {
+    margin-left: 10px;
+  }
+
+  .s5-card {
+    width: 299px;
+    height: 109px;
+  }
+
+  .card-background {
+    width: 295px;
+    padding: 15px 29px 8px 12px;
+    overflow: hidden;
+  }
+
+  .btn-feedback {
+    width: 240px;
+    margin: 30px auto 60px;
+  }
+
+  .leav-img {
+    height: 105px;
+    width: auto;
+    position: absolute;
+    right: -10px;
+    bottom: -43px;
+    transform: rotate(-20deg);
+  }
+
+  /* ++++++++++++++++++++ Footer ++++++++++++++++++++ */
+
+  footer {
+    padding: 20px 10px;
+    height: 334px;
+  }
+
+  .f-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  footer .logo {
+    border: none;
+    width: 128px;
+    height: auto;
+  }
+
+  footer .logo h2 {
+    display: flex;
+    gap: 5px;
+  }
+
+  footer .logo img {
+    left: 72px;
+    top: -2px;
+  }
+
+  .footer-middle-section {
+    margin-top: auto;
+  }
+
+  .btn-donate {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .footer-lower-section {
+    height: 101px;
+    flex-direction: column;
+  }
+
+  .footer-social {
+    order: 2;
+    position: absolute;
+    left: 20%;
+    top: 53px;
+  }
+
+  .social-media {
+    margin-top: 0;
+    gap: 30px;
+    flex-direction: row;
+  }
+
+  .footer-nav {
+    order: 1;
+    margin: 0 11px;
+  }
+
+  .nav-link {
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .footer-nav nav {
+    gap: 30px;
+  }
+
+  .author {
+    font-size: 15px;
+    line-height: 18px;
+    row-gap: 13px;
+  }
+
+  .footer-author {
+    order: 0;
+  }
 }
