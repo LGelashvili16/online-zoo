@@ -80,6 +80,32 @@
 
   /* ++++++++++++++++++++ Section-3 ++++++++++++++++++++ */
 
+  .s3-cards-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 320px;
+  }
+
+  .s3-cards-slider {
+    /* justify-content: center; */
+    align-items: center;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  #first-clone {
+    transform: translateX(46px);
+  }
+
+  .table-2 {
+    
+  }
+
+  #last-clone {
+    
+  }
+
   .cards {
     grid-template-columns: auto;
     gap: 20px;

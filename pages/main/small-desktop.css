@@ -75,6 +75,15 @@
 
   /* ++++++++++++++++++++ Section-3 ++++++++++++++++++++ */
 
+
+  .container-s3 {
+    max-width: 940px;
+  }
+
+  .s3-cards-container {
+    max-width: 940px;
+  }
+
   .cards {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -89,12 +98,12 @@
 
   .circle-left {
     position: absolute;
-    left: 240px;
+    left: 300px;
   }
 
   .circle-right {
     position: absolute;
-    right: 240px;
+    right: 300px;
   }
 
   .lower-section {
@@ -183,6 +192,22 @@
 
   .s5-cards {
     gap: 30px;
+  }
+
+  .popup-inner-card .s5-card {
+    height: 391px;
+    width: 267px;
+  }
+
+  .popup-inner-card .s5-card .card-background {
+    height: 387px;
+    width: 263px;
+  }
+
+  .popup-inner-card .s5-card .card-background p {
+    height: 309px;
+    width: 237px;
+    overflow-y: scroll;
   }
 
   .s5-card {

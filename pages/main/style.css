@@ -227,6 +227,8 @@ nav {
 
 .close {
   display: none;
+  justify-content: center;
+  align-items: center;
   z-index: 5;
 }
 
@@ -397,14 +399,14 @@ article p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 1322px; */
-  /* overflow: hidden; */
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .arrow-div {
   width: 62px;
   height: 62px;
-  position: relative;
   margin: 0 20px;
 }
 
@@ -418,7 +420,6 @@ article p {
   border-radius: 50%;
   background: orange;
   cursor: pointer;
-  /* margin: 0 20px; */
 }
 
 .slider-circle:active {
@@ -426,9 +427,14 @@ article p {
 }
 
 .circle-left {
+  position: absolute;
+  left: -102px;
+  z-index: 5;
 }
 
 .circle-right {
+  position: absolute;
+  right: -102px;
   transform: rotate(180deg);
 }
 
@@ -437,11 +443,24 @@ article p {
   height: 8px;
 }
 
+.s3-cards-container {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1158px;
+}
+
+.s3-cards-slider {
+  display: flex;
+}
+
 .cards {
   display: grid;
   grid-template-columns: auto auto auto;
   row-gap: 20px;
   column-gap: 30px;
+  transition: 1.9s;
 }
 
 .table-1 {
@@ -741,6 +760,54 @@ article p {
 .container-s5 {
   max-width: 1160px;
   margin: 0 auto;
+  overflow: hidden;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.popup .s5-card {
+  cursor: default;
+}
+
+.popup-card {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-active {
+  display: flex;
+}
+
+.popup-card {
+  width: 320px;
+  height: 428px;
+  background: #F5F7F6;
+}
+
+.popup-inner-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-x-icon {
+  margin-top: 12px;
+  margin-left: 12px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
 }
 
 .Testimonials {
@@ -756,8 +823,8 @@ article p {
   display: flex;
   justify-content: flex-start;
   gap: 30px;
-  overflow: hidden;
-  /* max-width: 1160px; */
+  transition: 1s;
+ 
 }
 
 .s5-card {
@@ -770,6 +837,7 @@ article p {
   border-radius: 20px;
   position: relative;
   padding: 0 2px;
+  cursor: pointer;
 }
 
 .card-background {
