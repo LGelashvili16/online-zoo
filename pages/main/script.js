@@ -31,50 +31,10 @@ header.addEventListener('click', function (e) {
 
 // -----------++++++++++-----------++++++++++-----------++++++++++
 
-// ^^^^^^^^^^ Testimonials slider ^^^^^^^^^^
-
-const inputRange = document.querySelector('.input-range');
-const cards = document.querySelector('.s5-cards');
-
-inputRange.addEventListener('input', sliding);
-
-function sliding() {
-  let margin = `-${inputRange.value * 297}px`;
-  cards.style.marginLeft = margin;
-}
+// ^^^^^^^^^^ Pets random cards ^^^^^^^^^^
 
 
-// ^^^^^^^^^^ Testimonials popup ^^^^^^^^^^
-
-const cardTestimonials = document.querySelectorAll(".s5-card");
-const popup = document.querySelector('.popup');
-const popupInnerCard = document.querySelector('.popup-inner-card');
-const xIcon = document.querySelector('.popup-x-icon');
-const popupCard = document.querySelector('.popup-card');
-
-
-for (let i = 0; i < cardTestimonials.length; i++) {
-
-  let appendCard = cardTestimonials[i];
-  
-  cardTestimonials[i].addEventListener('click', () => {
-    popup.classList.add('popup-active');
-    popupInnerCard.innerHTML = appendCard.outerHTML;
-  });
-
-  xIcon.addEventListener('click', () => {
-    popup.classList.remove('popup-active');
-  });
-
-  popup.addEventListener('click', () => {
-    popup.classList.remove('popup-active');
-  });
-
-  popupCard.addEventListener('click', (e) => {
-    e.stopPropagation();
-  })
-
-};
+Math.floor(Math.random() * 7 + 1);
 
 // -----------++++++++++-----------++++++++++-----------++++++++++
 
@@ -127,45 +87,49 @@ petsSlider.addEventListener('transitionend', () => {
 // -----------++++++++++-----------++++++++++-----------++++++++++
 
 
+// ^^^^^^^^^^ Testimonials slider ^^^^^^^^^^
+
+const inputRange = document.querySelector('.input-range');
+const cards = document.querySelector('.s5-cards');
+
+inputRange.addEventListener('input', sliding);
+
+function sliding() {
+  let margin = `-${inputRange.value * 297}px`;
+  cards.style.marginLeft = margin;
+}
 
 
+// ^^^^^^^^^^ Testimonials popup ^^^^^^^^^^
+
+const cardTestimonials = document.querySelectorAll(".s5-card");
+const popup = document.querySelector('.popup');
+const popupInnerCard = document.querySelector('.popup-inner-card');
+const xIcon = document.querySelector('.popup-x-icon');
+const popupCard = document.querySelector('.popup-card');
 
 
+for (let i = 0; i < cardTestimonials.length; i++) {
 
-
-
-
-
-
-
-
-
-
-// leftArr.addEventListener('click', () => {
-//   counter++;
-//   petsSlider.style.transform = `translateX(${tableWidth * counter}px)`;
+  let appendCard = cardTestimonials[i];
   
-// })
+  cardTestimonials[i].addEventListener('click', () => {
+    popup.classList.add('popup-active');
+    popupInnerCard.innerHTML = appendCard.outerHTML;
+  });
 
-// rightArr.addEventListener('click', () => {
-  
-//   counter--;
-//   petsSlider.style.transform = `translateX(${tableWidth * counter}px)`;
+  xIcon.addEventListener('click', () => {
+    popup.classList.remove('popup-active');
+  });
 
-//   petsSlider.style.transition =  '1s';
+  popup.addEventListener('click', () => {
+    popup.classList.remove('popup-active');
+  });
 
-//   if (counter < 0) {
-//     console.log(counter);
-//   }
+  popupCard.addEventListener('click', (e) => {
+    e.stopPropagation();
+  })
 
-//   petsSlider.addEventListener('transitionend', () => {
-//     if (tableWidth * counter < tableWidth + 10) {
-//       petsSlider.style.transition = 'none';
-//       petsSlider.style.transform = `translateX(-${tableWidth * counter}px)`;
-//     }
-//   })
-  
-// })
+};
 
-
-
+// -----------++++++++++-----------++++++++++-----------++++++++++

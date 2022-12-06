@@ -47,16 +47,34 @@ for( let i = 0; i < dotCircle.length; i++) {
       dotCircle[i].classList.add('dot-active-2');
     }
 
-    
-
     moneyAmount.forEach(child => child.classList.remove('money-active', 'money-active-2'));
 
     moneyAmount[i].classList.add('money-active');
 
   
     inputMoney.value = Number(moneyAmount[i].innerText.slice(1));
+
   });
 
-}
+};
+
+inputMoney.addEventListener('input', () => {
+  
+  moneyAmount.forEach((child, index) => {
+
+    dotCircle[index].classList.remove('dot-active', 'dot-active-2');
+    moneyAmount[index].classList.remove('money-active', 'money-active-2');
+
+    if (inputMoney.value == child.innerText.slice(1)) {
+      
+      window.innerWidth > 639 ? dotCircle[index].classList.add('dot-active') : dotCircle[index].classList.add('dot-active-2');
+      
+      moneyAmount[index].classList.add('money-active');
+
+    }
+
+  });
+
+});
 
 // -----------++++++++++-----------++++++++++-----------++++++++++
