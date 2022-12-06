@@ -28,3 +28,35 @@ header.addEventListener('click', function (e) {
 });
 
 // -----------++++++++++-----------++++++++++-----------++++++++++
+
+// ^^^^^^^^^^ Money selector ^^^^^^^^^^
+
+const dotCircle = document.querySelectorAll('.dot-circle');
+const moneyAmount = document.querySelectorAll('.money-amount');
+const inputMoney = document.querySelector('.input-money');
+
+for( let i = 0; i < dotCircle.length; i++) {
+
+  dotCircle[i].addEventListener('click', () => {
+
+    dotCircle.forEach(child => child.classList.remove('dot-active', 'dot-active-2'));
+
+    if (window.innerWidth > 639) {
+      dotCircle[i].classList.add('dot-active');
+    } else {
+      dotCircle[i].classList.add('dot-active-2');
+    }
+
+    
+
+    moneyAmount.forEach(child => child.classList.remove('money-active', 'money-active-2'));
+
+    moneyAmount[i].classList.add('money-active');
+
+  
+    inputMoney.value = Number(moneyAmount[i].innerText.slice(1));
+  });
+
+}
+
+// -----------++++++++++-----------++++++++++-----------++++++++++

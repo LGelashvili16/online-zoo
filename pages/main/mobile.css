@@ -95,15 +95,15 @@
   }
 
   #first-clone {
-    transform: translateX(46px);
+    /* transform: translateX(100%); */
   }
 
   .table-2 {
-    
+    display: none;
   }
 
   #last-clone {
-    
+    display: none;
   }
 
   .cards {
